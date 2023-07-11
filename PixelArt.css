@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+/*we can <body style = "background-color:....">*/
+
+.row{
+    display:table-row;
+}
+
+.pixel{
+    display: table-cell;
+    background-color: black;
+    width:40px;
+    height:40px;
+}
+
+.pen{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border: 2px pixel solid white;
+}
